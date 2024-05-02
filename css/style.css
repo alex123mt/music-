@@ -1,0 +1,178 @@
+body{
+    width: 100%;
+    background-color: #000;
+    color: white;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    z-index: 100;
+}
+
+.logo{
+    width: 50%;
+    display: grid;
+    place-items: center start;
+    
+}
+
+.logo img{
+    width: 15%;
+    height: 75%;
+    margin: 0% 0% 0% 1%; 
+    cursor: pointer;
+    transform: preserve-3d;   
+}
+
+.navegador{
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    gap: 2%;
+    margin: 0% 2% 0% 1%;
+}
+
+.a{
+    text-decoration: none;
+    color: #ff2f2f;
+    display: grid;
+    place-content: center;
+    padding: 0%;
+    border-top: #ff2f2f solid 2px;
+}
+
+.a2{
+    text-decoration: none;
+    color: #fff;
+    display: grid;
+    place-content: center;
+    padding: 0%;
+}
+
+.a2:hover{
+    text-decoration: none;
+    color: #ff2f2f;
+    display: grid;
+    place-content: center;
+    border-top: #ff2f2f solid 2px;
+}
+
+.boton-nav{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.boton-nav:hover{
+    color: #ff2f2f;
+
+}
+
+.ulnav{
+    background-color: #000;
+}
+
+
+
+.dropdown-item:hover{
+    color: #ff2f2f;
+    background-color: #000;
+}
+
+.imagen-section{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../img/imagen3.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:top;
+    display: grid;
+    place-items: center;
+}
+
+
+.boton_image{
+    width: 10%;
+    height: 10%;
+    color: #fff;
+    border: #fff solid 2px;
+    display: grid;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    box-shadow: 0px 0px 20px #363636;
+
+}
+
+.boton_image:hover{
+    font-size: 20px;
+    border: #fff solid 2px;
+    background-color: #0000007a;
+    box-shadow: 0px 0px 20px #fff;
+
+}
+
+
+.seccion1{
+    width: 100%;
+    height: 90vh;
+    margin-top: 1%;
+}
+
+.titulo{
+    width: 20%;
+    margin-left: 10%;
+}
+
+
+.canciones_popu{
+    margin: auto;
+    width: 50%;
+    height: 78%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(1,100%);
+    gap: 1%;
+    background-size: cover;
+    
+}
+
+.popular_4{
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+    background-color: #000;
+}
+
+.card{
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+}
+
+
+.card_body{
+    height: 22vh;
+    text-align: center;
+    padding-top: 10%;
+    background-color: #000;
+}
+
+.boton{
+    width: 30%;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+.a{
+    text-decoration: none;
+}
+
+.spotify{
+    width: 100%;
+} 
